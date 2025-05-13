@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>جارٍ إعادة التوجيه...</title>
+  <script>
+    // إعادة التوجيه بعد 5 ثواني
+    setTimeout(function () {
+      window.location.href = "https://example.com"; // ← غيّر الرابط هنا
+    }, 5000);
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-black via-gray-900 to-black text-white h-screen flex items-center justify-center">
+  <div class="text-center p-6 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl border border-red-500">
+    <h1 class="text-3xl font-bold text-red-500 mb-4">جارٍ إعادة التوجيه</h1>
+    <p class="text-lg">يرجى الانتظار قليلاً، سيتم تحويلك تلقائيًا خلال لحظات...</p>
+    <p class="mt-4 text-sm text-gray-300">إذا لم يتم التوجيه، <a href="https://example.com" class="underline text-red-400">اضغط هنا يدويًا</a></p>
+  </div>
+</body>
+</html>
